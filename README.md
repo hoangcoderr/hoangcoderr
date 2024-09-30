@@ -4,7 +4,7 @@
     <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Hi+There!+👋;+I'm+Dao+Nguyen+Hoang!;" />
 </h1>
 
-<h3 align="center">A freshman studying software engineering at TDTUㅤᴠɪᴇ</h3>
+<h3 align="center">A sophomore studying software engineering at TDTUㅤᴠɪᴇ</h3>
 
 <br/>
 
