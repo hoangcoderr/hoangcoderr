@@ -12,7 +12,7 @@
  
  🔭 I’m currently studying at **Ton Duc Thang University**
  
- 🌱 I’m currently learning **Data Structure and Algorithms, Database**
+ 🌱 I’m currently learning **Discrete mathematics, Software engineering, Web programming**
 
 ⚡ Fun fact : **The first computer virus, "Creeper," was created in 1971 and simply displayed the message, "I'm the creeper: catch me if you can."**
 
