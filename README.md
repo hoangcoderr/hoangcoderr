@@ -1,190 +1,123 @@
 <div align="center">
-
-```
-╔══════════════════════════════════════════════════════════════════╗
-║     [ROOT@hoangcoderr ~]# ./init_profile.sh --mode=elite         ║
-║     [OK] Kernel: Unity_Engine | Stack: Fullstack | Sec: RedTeam  ║
-╚══════════════════════════════════════════════════════════════════╝
-```
-
-<img src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00ab6c.gif" width="100%">
-
+  <img src="./assets/header.svg" width="100%" alt="Dao Nguyen Hoang — Reverse Engineer, Backend & AI/Game Systems Developer" />
 </div>
-
-<img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=hoangcoderr.hoangcoderr&style=flat-square&color=00ff41&labelColor=0d1117" />
-
-<h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?font=JetBrains+Mono&size=26&center=true&vCenter=true&width=700&height=60&duration=3000&pause=800&color=00FF41&lines=root@hoangcoderr:~%23+whoami;>+Dao+Nguyen+Hoang;>+Software+Engineer+%7C+Game+Dev+%7C+Security+Researcher;>+%22First+exploit+the+problem.+Then+patch+it.%22" />
-</h1>
 
 <br/>
 
-```yaml
-┌──[root@hoangcoderr]─[~]
-└─$ cat /etc/passwd | grep hoang
-
-user:
-  name       : Dao Nguyen Hoang
-  alias      : hoangcoderr
-  location   : Ho Chi Minh City, Vietnam 🇻🇳
-  school     : Ton Duc Thang University — Year 3
-  major      : Software Engineering
-  role       : Fullstack Dev | Unity Dev | Security Researcher
-  status     : Available for internship & collaboration
-  motto      : "Break it to understand it. Build it to master it."
-```
-
----
-
-## 🎯 Currently Hacking On
-
-```diff
-+ ACTIVE     : Full-stack projects (React, Node.js, Next.js, Unity 3D)
-+ RESEARCH   : Web Application Security, Reverse Engineering, Malware Analysis
-+ BUILDING   : Game mechanics, System tools, Automation scripts
-+ LEARNING   : Advanced Exploitation, Kernel internals, DevSecOps
-- AVOIDING   : Tutorial hell | Copy-paste without understanding
-```
-
----
-
-## 🛡️ Arsenal
-
-### 🎮 Game Development
-![Unity](https://img.shields.io/badge/Unity-000000?style=flat-square&logo=unity&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white)
-![Blender](https://img.shields.io/badge/Blender-F5792A?style=flat-square&logo=blender&logoColor=white)
-
-### 🌐 Frontend
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![TailwindCSS](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
-
-### ⚙️ Backend & Database
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
-
-### 🔐 Cybersecurity & Reverse Engineering
-![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6633?style=flat-square&logo=burpsuite&logoColor=white)
-![Metasploit](https://img.shields.io/badge/Metasploit-2596CD?style=flat-square&logo=metasploit&logoColor=white)
-![Nmap](https://img.shields.io/badge/Nmap-214478?style=flat-square&logo=nmap&logoColor=white)
-![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=flat-square&logo=wireshark&logoColor=white)
-![Ghidra](https://img.shields.io/badge/Ghidra-FF0000?style=flat-square&logo=ghidra&logoColor=white)
-![IDA Pro](https://img.shields.io/badge/IDA_Pro-00A4EF?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PC9zdmc+&logoColor=white)
-![x64dbg](https://img.shields.io/badge/x64dbg-2D2D2D?style=flat-square&logo=windows-terminal&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![Assembly](https://img.shields.io/badge/Assembly-6E4C13?style=flat-square&logo=assemblyscript&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=flat-square&logo=kalilinux&logoColor=white)
-
-### 🛠️ Languages & Tools
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white)
-![Neovim](https://img.shields.io/badge/Neovim-57A143?style=flat-square&logo=neovim&logoColor=white)
-
----
-
-## 📊 System Analytics
-
 <div align="center">
-  <img height="180em" src="https://github-readme-stats-salesp07.vercel.app/api?username=hoangcoderr&count_private=true&show_icons=true&theme=chartreuse-dark&border_radius=8&border_color=00ff41&hide_border=false&rank_icon=github&title_color=00ff41&icon_color=00ff41" />
-  <img height="180em" src="https://github-readme-stats-salesp07.vercel.app/api/top-langs/?username=hoangcoderr&hide=HTML&langs_count=8&layout=compact&theme=chartreuse-dark&border_radius=8&border_color=00ff41&size_weight=0.5&count_weight=0.5&exclude_repo=github-readme-stats&title_color=00ff41" />
-</div>
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=hoangcoderr&theme=merko&border_radius=8&border=00ff41&stroke=00ff41&ring=00ff41&fire=ff6600&currStreakNum=00ff41&sideNums=00ff41&currStreakLabel=8B949E&sideLabels=8B949E&dates=8B949E" />
-</div>
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=hoangcoderr&theme=matrix&no-frame=true&no-bg=false&margin-w=4&row=1" />
+  <img src="https://img.shields.io/badge/Role-Reverse_Engineer_%26_Systems_Dev-161b22?style=flat-square&labelColor=0d1117&color=58a6ff" alt="Role" />
+  <img src="https://img.shields.io/badge/Education-TDTU_Software_Engineering_(Final_Year)-161b22?style=flat-square&labelColor=0d1117&color=3fb950" alt="Education" />
+  <img src="https://img.shields.io/badge/Location-Ho_Chi_Minh_City,_VN-161b22?style=flat-square&labelColor=0d1117&color=8b949e" alt="Location" />
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=hoangcoderr.hoangcoderr&style=flat-square&color=58a6ff&labelColor=0d1117" alt="Visitors" />
 </div>
 
 ---
 
-## 🐍 Contribution Matrix
+### `0x00` — Overview
+
+Final-year **Software Engineering** student at **Ton Duc Thang University (TDTU)** with a primary focus on **Reverse Engineering & Low-Level Systems**, complemented by strong practical experience in **Backend Engineering**, **Applied AI / RAG Pipelines**, and **Game Development**.
+
+My approach combines bottom-up binary and runtime analysis (understanding how compiled code, memory layouts, PE/ELF binaries, and `.NET`/IL2CPP runtimes execute under the hood) with top-down software architecture across PHP, C#, Java, C++, and Python.
+
+---
+
+### `0x01` — Core Engineering Domains
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h4><code>[0x01A]</code> Reverse Engineering &amp; Binary Analysis <i>(Primary)</i></h4>
+      <ul>
+        <li><b>Windows Internals &amp; Native Binaries:</b> Static and dynamic analysis of PE/ELF executables using <code>IDA Pro</code>, <code>Ghidra</code>, <code>x64dbg</code>, and <code>GDB</code>; Win32/NTAPI internals, manual unpacking, and anti-debug / anti-tamper analysis.</li>
+        <li><b>Game Hacking &amp; Managed Runtimes:</b> Reversing C#/.NET and Unity binaries (<code>dnSpy</code>, <code>ILSpy</code>, <code>Il2CppDumper</code>), memory inspection (<code>Cheat Engine</code>), DLL injection, and API/function hooking (<code>MinHook</code>, Detours).</li>
+        <li><b>Mobile &amp; Exploitation:</b> Android APK decompilation and dynamic instrumentation (<code>Frida</code>, <code>JADX</code>, <code>Apktool</code>, Smali), Linux ELF binary exploitation (<code>pwntools</code>), and malware analysis.</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h4><code>[0x01B]</code> Backend Engineering &amp; Systems</h4>
+      <ul>
+        <li><b>Multi-Language Backend Stack:</b> Building backend services and RESTful APIs using <b>PHP</b> (Native PHP, Laravel), <b>C#</b> (.NET / ASP.NET Core), <b>Java</b> (Java Core, Spring Boot), and <b>Python</b> (FastAPI, Flask).</li>
+        <li><b>Data &amp; Caching Layers:</b> Relational schema design, query optimization, and distributed caching with <code>MySQL</code>, <code>PostgreSQL</code>, <code>Redis</code>, and <code>MongoDB</code>.</li>
+        <li><b>Infrastructure:</b> Containerized environments with <code>Docker</code>, Linux system administration, and automated Git workflows.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h4><code>[0x01C]</code> Applied AI &amp; RAG Pipelines</h4>
+      <ul>
+        <li><b>Retrieval-Augmented Generation (RAG):</b> End-to-end document ingestion, chunking strategies, embedding pipelines, semantic/hybrid retrieval, and context reranking.</li>
+        <li><b>Frameworks &amp; Vector Stores:</b> Developing AI services with <code>Python</code>, <code>LangChain</code>, and <code>LlamaIndex</code> backed by <code>FAISS</code>, <code>ChromaDB</code>, and <code>Qdrant</code>.</li>
+        <li><b>LLM Integration:</b> Deploying local and API-driven inference workflows (<code>Ollama</code>, OpenAI/Gemini APIs) exposed via asynchronous <code>FastAPI</code> microservices.</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h4><code>[0x01D]</code> Game Development &amp; Engine Internals</h4>
+      <ul>
+        <li><b>Unity &amp; C# Architecture:</b> Designing modular 2D/3D gameplay systems, physics interactions, custom editor tooling, and asset integration (<code>Blender</code>).</li>
+        <li><b>Networking &amp; Runtime Security:</b> Implementing client-server state synchronization and applying reverse engineering insights to client protection, obfuscation, and anti-cheat mechanics.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+---
+
+### `0x02` — Technical Arsenal
+
+| Layer | Technologies & Tools |
+| :--- | :--- |
+| **Low-Level & Languages** | ![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white) ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white) ![x86/x64 ASM](https://img.shields.io/badge/x86%2Fx64_Assembly-6E4C13?style=flat-square&logo=assemblyscript&logoColor=white) ![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white) ![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white) ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-336791?style=flat-square&logo=postgresql&logoColor=white) |
+| **Reverse Engineering** | ![IDA Pro](https://img.shields.io/badge/IDA_Pro-1f6feb?style=flat-square) ![Ghidra](https://img.shields.io/badge/Ghidra-b62324?style=flat-square&logo=ghidra&logoColor=white) ![x64dbg](https://img.shields.io/badge/x64dbg-21262d?style=flat-square&logo=windowsterminal&logoColor=white) ![GDB](https://img.shields.io/badge/GDB_%2F_pwndbg-21262d?style=flat-square&logo=gnu&logoColor=white) ![dnSpy / ILSpy](https://img.shields.io/badge/dnSpy_%2F_ILSpy-512BD4?style=flat-square&logo=dotnet&logoColor=white) ![Il2CppDumper](https://img.shields.io/badge/Il2CppDumper-21262d?style=flat-square&logo=unity&logoColor=white) ![Frida](https://img.shields.io/badge/Frida-ef6456?style=flat-square) ![JADX](https://img.shields.io/badge/JADX_%2F_Apktool-3DDC84?style=flat-square&logo=android&logoColor=black) ![Cheat Engine](https://img.shields.io/badge/Cheat_Engine-161b22?style=flat-square) ![MinHook](https://img.shields.io/badge/MinHook_%2F_Win32_API-0078D6?style=flat-square) ![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=flat-square&logo=wireshark&logoColor=white) ![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6633?style=flat-square&logo=burpsuite&logoColor=white) |
+| **Backend & Databases** | ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white) ![.NET](https://img.shields.io/badge/.NET_Core-512BD4?style=flat-square&logo=dotnet&logoColor=white) ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![Flask](https://img.shields.io/badge/Flask-161b22?style=flat-square&logo=flask&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white) |
+| **AI & RAG Systems** | ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white) ![LlamaIndex](https://img.shields.io/badge/LlamaIndex-21262d?style=flat-square) ![FAISS / VectorDB](https://img.shields.io/badge/FAISS_%2F_Chroma_%2F_Qdrant-00599C?style=flat-square) ![Ollama / LLMs](https://img.shields.io/badge/Ollama_%2F_LLM_APIs-161b22?style=flat-square) ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) |
+| **Game & Infrastructure** | ![Unity](https://img.shields.io/badge/Unity-161b22?style=flat-square&logo=unity&logoColor=white) ![Blender](https://img.shields.io/badge/Blender-F5792A?style=flat-square&logo=blender&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black) ![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=flat-square&logo=kalilinux&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![Neovim](https://img.shields.io/badge/Neovim-57A143?style=flat-square&logo=neovim&logoColor=white) ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white) |
+
+---
+
+### `0x03` — Telemetry & Activity
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/hoangcoderr/hoangcoderr-Github-Profile/output/github-contribution-grid-snake-dark.svg" />
+  <img height="175em" src="https://github-readme-stats-salesp07.vercel.app/api?username=hoangcoderr&count_private=true&show_icons=true&bg_color=0d1117&border_color=30363d&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff&border_radius=6&rank_icon=github" alt="GitHub Stats" />
+  <img height="175em" src="https://github-readme-stats-salesp07.vercel.app/api/top-langs/?username=hoangcoderr&hide=html,css,scss,less,ejs,blade,shaderlab,hlsl&langs_count=8&layout=compact&bg_color=0d1117&border_color=30363d&title_color=58a6ff&text_color=c9d1d9&border_radius=6&size_weight=0.5&count_weight=0.5&exclude_repo=github-readme-stats" alt="Top Languages" />
+</div>
+
+<div align="center">
+  <img height="165em" src="https://streak-stats.demolab.com?user=hoangcoderr&theme=dark&background=0D1117&border=30363D&stroke=21262D&ring=58A6FF&fire=3FB950&currStreakNum=E6EDF3&sideNums=E6EDF3&currStreakLabel=8B949E&sideLabels=8B949E&dates=6E7681&border_radius=6" alt="GitHub Streak" />
+</div>
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/hoangcoderr/hoangcoderr/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/hoangcoderr/hoangcoderr/output/github-contribution-grid-snake.svg" />
+    <img alt="Contribution Grid Snake" src="https://raw.githubusercontent.com/hoangcoderr/hoangcoderr/output/github-contribution-grid-snake-dark.svg" width="100%" />
+  </picture>
 </div>
 
 ---
 
-## 🏴‍☠️ Operation Logs
+### `0x04` — Channels & Support
 
-```bash
-$ nmap -A hoangcoderr --script vuln
-[+] PORT     STATE SERVICE
-[+] 22/tcp   open  ssh        -> Always coding
-[+] 80/tcp   open  http       -> Web exploits & fullstack
-[+] 443/tcp  open  https      -> Secure connections only
-[+] 1337/tcp open  elite      -> Reverse engineering mode
-[+] 8080/tcp open  http-proxy -> Unity game server
-
-$ strings /bin/hoangcoderr | grep -i "skill"
-[+] Web Exploitation (SQLi, XSS, LFI, SSRF, RCE)
-[+] Reverse Engineering (x86/x64, ARM, PE/ELF analysis)
-[+] Software Cracking & Patching (x64dbg, OllyDbg, IDA)
-[+] Game Hacking & Memory Manipulation (Cheat Engine, DLL Injection)
-[+] Network Penetration & OSINT
-[+] Malware Analysis (Static & Dynamic)
-```
-
----
-
-## 🔗 Secure Channels
-
-<div align="center">
-
-[![Gmail](https://img.shields.io/badge/dhoang1234sp@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:dhoang1234sp@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-hoangcoderr-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hoangcoderr/)
-[![Facebook](https://img.shields.io/badge/Facebook-hoangkev1n-1877F2?style=flat-square&logo=facebook&logoColor=white)](https://www.facebook.com/hoangkev1n)
-[![TikTok](https://img.shields.io/badge/TikTok-hoangcoderr-000000?style=flat-square&logo=tiktok&logoColor=white)](https://www.tiktok.com/@hoangcoderr)
-[![YouTube](https://img.shields.io/badge/YouTube-hoangcoderr-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/@hoangcoderr)
-
-</div>
-
----
-
-## ☕ Support the Mission
-
-<div align="center">
-
-If my tools or research helped you — fuel the next exploit.
-
-[![MoMo](https://img.shields.io/badge/MoMo-Pay-ae2070?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PC9zdmc+)](https://nhantien.momo.vn/0854975357)
-[![Vietcombank](https://img.shields.io/badge/Vietcombank-Transfer-006400?style=flat-square)](https://raw.githubusercontent.com/hoangcoderr/hoangcoderr/main/z5567468004892_d714aaaea30752790e4fa4d80d1814d9.jpg)
-
-</div>
-
----
-
-<div align="center">
-
-```
-┌─────────────────────────────────────────┐
-│  "Hack the planet. Build the future."   │
-│              — hoangcoderr              │
-└─────────────────────────────────────────┘
-```
-
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a0b-ade5-8d373e4d3e1e.gif" width="50">
-
-<br/>
-
-<sub>Last updated · 2026 · Compiled with -O3 -fno-stack-protector ☕</sub>
-
-</div>
+<table width="100%">
+  <tr>
+    <td width="60%" valign="top">
+      <h4>Direct Channels</h4>
+      <p>Open for software engineering opportunities, backend/AI projects, and reverse engineering research discussions.</p>
+      <p>
+        <a href="mailto:dhoang1234sp@gmail.com"><img src="https://img.shields.io/badge/Email-dhoang1234sp%40gmail.com-161b22?style=flat-square&logo=gmail&logoColor=EA4335&labelColor=0d1117" alt="Email" /></a>
+        <a href="https://www.linkedin.com/in/hoangcoderr/"><img src="https://img.shields.io/badge/LinkedIn-hoangcoderr-161b22?style=flat-square&logo=linkedin&logoColor=0A66C2&labelColor=0d1117" alt="LinkedIn" /></a>
+        <a href="https://www.facebook.com/hoangkev1n"><img src="https://img.shields.io/badge/Facebook-hoangkev1n-161b22?style=flat-square&logo=facebook&logoColor=1877F2&labelColor=0d1117" alt="Facebook" /></a>
+        <a href="https://www.youtube.com/@hoangcoderr"><img src="https://img.shields.io/badge/YouTube-@hoangcoderr-161b22?style=flat-square&logo=youtube&logoColor=FF0000&labelColor=0d1117" alt="YouTube" /></a>
+        <a href="https://www.tiktok.com/@hoangcoderr"><img src="https://img.shields.io/badge/TikTok-@hoangcoderr-161b22?style=flat-square&logo=tiktok&logoColor=white&labelColor=0d1117" alt="TikTok" /></a>
+      </p>
+    </td>
+    <td width="40%" valign="top">
+      <h4>Support Research &amp; Tools</h4>
+      <p>If my open-source tools or technical write-ups were useful to you:</p>
+      <p>
+        <a href="https://nhantien.momo.vn/0854975357"><img src="https://img.shields.io/badge/MoMo-0854975357-ae2070?style=flat-square&labelColor=0d1117" alt="MoMo" /></a>
+        <a href="https://raw.githubusercontent.com/hoangcoderr/hoangcoderr/main/z5567468004892_d714aaaea30752790e4fa4d80d1814d9.jpg"><img src="https://img.shields.io/badge/Vietcombank-QR_Code-006400?style=flat-square&labelColor=0d1117" alt="Vietcombank QR" /></a>
+      </p>
+    </td>
+  </tr>
+</table>
