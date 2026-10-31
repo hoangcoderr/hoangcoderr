@@ -1,0 +1,162 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 256" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117" />
+      <stop offset="100%" stop-color="#11161d" />
+    </linearGradient>
+    <linearGradient id="accentLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#58a6ff" stop-opacity="0.85" />
+      <stop offset="55%" stop-color="#3fb950" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#30363d" stop-opacity="0.1" />
+    </linearGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#21262d" stroke-width="0.6" stroke-opacity="0.55" />
+    </pattern>
+    <clipPath id="leftClip">
+      <rect x="20" y="40" width="510" height="210" />
+    </clipPath>
+    <clipPath id="rightClip">
+      <rect x="546" y="40" width="386" height="210" />
+    </clipPath>
+    <style>
+      .mono { font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', Consolas, monospace; }
+      .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; }
+      .title { font-size: 25px; font-weight: 700; fill: #e6edf3; letter-spacing: -0.3px; }
+      .handle { font-size: 13.5px; font-weight: 500; fill: #58a6ff; }
+      .subtitle { font-size: 12px; font-weight: 600; fill: #79c0ff; }
+      .comment { font-size: 11px; fill: #6e7681; }
+      .topbar-text { font-size: 11px; fill: #8b949e; }
+      .key { font-size: 11.5px; fill: #8b949e; }
+      .val { font-size: 11.5px; fill: #c9d1d9; }
+      .hl-blue { fill: #58a6ff; }
+      .hl-green { fill: #3fb950; }
+      .addr { font-size: 11px; fill: #6e7681; }
+      .bytes { font-size: 11px; fill: #8b949e; }
+      .mnemonic { font-size: 11px; fill: #ff7b72; font-weight: 600; }
+      .operands { font-size: 11px; fill: #c9d1d9; }
+      .sym { font-size: 11px; fill: #d2a8ff; }
+      .reg-lbl { font-size: 10.5px; fill: #8b949e; }
+      .reg-val { font-size: 10.5px; fill: #3fb950; }
+      @keyframes pulse {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.35; }
+      }
+      @keyframes scanline {
+        0%, 100% { fill-opacity: 0.09; }
+        50% { fill-opacity: 0.18; }
+      }
+      .status-dot { animation: pulse 2.4s infinite ease-in-out; }
+      .active-row { animation: scanline 3s infinite ease-in-out; }
+    </style>
+  </defs>
+
+  <!-- Outer Frame -->
+  <rect x="1" y="1" width="938" height="254" rx="8" fill="url(#bgGrad)" stroke="#30363d" stroke-width="1.5" />
+  <rect x="2" y="36" width="936" height="218" fill="url(#grid)" />
+
+  <!-- Top Disassembler Window Header -->
+  <path d="M 2 9 Q 2 2 9 2 L 931 2 Q 938 2 938 9 L 938 36 L 2 36 Z" fill="#161b22" />
+  <line x1="1" y1="36" x2="939" y2="36" stroke="#30363d" stroke-width="1" />
+
+  <!-- Window Controls & Segment Info -->
+  <circle cx="20" cy="19" r="5" fill="#30363d" />
+  <circle cx="36" cy="19" r="5" fill="#30363d" />
+  <circle cx="52" cy="19" r="5" fill="#30363d" />
+
+  <rect x="72" y="9" width="182" height="20" rx="4" fill="#0d1117" stroke="#30363d" stroke-width="1" />
+  <text x="82" y="23" class="mono topbar-text"><tspan class="hl-blue">.text</tspan>:00007FF6A1B01000</text>
+
+  <rect x="262" y="9" width="198" height="20" rx="4" fill="#0d1117" stroke="#30363d" stroke-width="1" />
+  <text x="272" y="23" class="mono topbar-text">FMT: <tspan fill="#c9d1d9">PE64 · ELF64 · IL2CPP</tspan></text>
+
+  <!-- Right Status Indicator -->
+  <circle cx="732" cy="19" r="4" fill="#3fb950" class="status-dot" />
+  <text x="744" y="23" class="mono topbar-text">SENIOR_YEAR_SE <tspan fill="#6e7681">@</tspan> <tspan fill="#c9d1d9">TDTU</tspan></text>
+
+  <!-- Left Column: Engineer Identity & Specs -->
+  <g clip-path="url(#leftClip)">
+    <text x="32" y="64" class="mono comment">// 0x00 IDENTITY_DESCRIPTOR</text>
+
+    <text x="32" y="95" class="sans title">Đào Nguyễn Hoàng</text>
+    <rect x="284" y="76" width="116" height="23" rx="4" fill="#161b22" stroke="#30363d" stroke-width="1" />
+    <text x="294" y="92" class="mono handle">@hoangcoderr</text>
+
+    <text x="32" y="121" class="mono subtitle">Reverse Engineer · Backend · AI/RAG · Game Dev</text>
+    <rect x="32" y="133" width="475" height="1.5" fill="url(#accentLine)" />
+
+    <!-- Metadata Key-Value Rows -->
+    <text x="32" y="159" class="mono key">0x00 FOCUS</text>
+    <text x="132" y="159" class="mono val">PE/ELF · .NET/IL2CPP · Win32 · Android</text>
+
+    <text x="32" y="181" class="mono key">0x04 BACKEND</text>
+    <text x="132" y="181" class="mono val">PHP (Laravel) · C# (.NET) · Java · Python</text>
+
+    <text x="32" y="203" class="mono key">0x08 AI/GAME</text>
+    <text x="132" y="203" class="mono val">RAG (LangChain/VectorDB) · Unity 3D/C#</text>
+
+    <text x="32" y="225" class="mono key">0x0C SCHOOL</text>
+    <text x="132" y="225" class="mono val">Software Engineering @ TDTU (Year 4)</text>
+  </g>
+
+  <!-- Center Vertical Divider -->
+  <line x1="540" y1="36" x2="540" y2="254" stroke="#30363d" stroke-width="1" stroke-dasharray="3,3" />
+
+  <!-- Right Column: Disassembly View -->
+  <g clip-path="url(#rightClip)">
+    <text x="558" y="60" class="mono comment">// DISASM_VIEW [hoangcoderr.sys]</text>
+
+    <!-- Active instruction highlight bar -->
+    <rect x="552" y="131" width="366" height="17" rx="3" fill="#58a6ff" class="active-row" />
+    <rect x="552" y="131" width="2.5" height="17" fill="#58a6ff" />
+
+    <!-- Instructions -->
+    <text x="560" y="79" class="mono addr">140001000</text>
+    <text x="632" y="79" class="mono bytes">55</text>
+    <text x="716" y="79" class="mono mnemonic">push</text>
+    <text x="762" y="79" class="mono operands">rbp</text>
+
+    <text x="560" y="95" class="mono addr">140001001</text>
+    <text x="632" y="95" class="mono bytes">48 89 E5</text>
+    <text x="716" y="95" class="mono mnemonic">mov</text>
+    <text x="762" y="95" class="mono operands">rbp, rsp</text>
+
+    <text x="560" y="111" class="mono addr">140001004</text>
+    <text x="632" y="111" class="mono bytes">48 83 EC 20</text>
+    <text x="716" y="111" class="mono mnemonic">sub</text>
+    <text x="762" y="111" class="mono operands">rsp, 0x20</text>
+
+    <text x="560" y="127" class="mono addr">140001008</text>
+    <text x="632" y="127" class="mono bytes">48 8D 0D F1</text>
+    <text x="716" y="127" class="mono mnemonic">lea</text>
+    <text x="762" y="127" class="mono operands">rcx, [rip+0xf1]</text>
+
+    <text x="560" y="143" class="mono addr" fill="#58a6ff">14000100F</text>
+    <text x="632" y="143" class="mono bytes" fill="#c9d1d9">E8 4C 02 00</text>
+    <text x="716" y="143" class="mono mnemonic">call</text>
+    <text x="762" y="143" class="mono sym">&lt;reverse_binary&gt;</text>
+
+    <text x="560" y="159" class="mono addr">140001014</text>
+    <text x="632" y="159" class="mono bytes">E8 87 05 00</text>
+    <text x="716" y="159" class="mono mnemonic">call</text>
+    <text x="762" y="159" class="mono sym">&lt;init_backend_rag&gt;</text>
+
+    <text x="560" y="175" class="mono addr">140001019</text>
+    <text x="632" y="175" class="mono bytes">31 C0</text>
+    <text x="716" y="175" class="mono mnemonic">xor</text>
+    <text x="762" y="175" class="mono operands">eax, eax</text>
+
+    <text x="560" y="191" class="mono addr">14000101B</text>
+    <text x="632" y="191" class="mono bytes">48 83 C4 20</text>
+    <text x="716" y="191" class="mono mnemonic">add</text>
+    <text x="762" y="191" class="mono operands">rsp, 0x20</text>
+
+    <text x="560" y="207" class="mono addr">14000101F</text>
+    <text x="632" y="207" class="mono bytes">5D C3</text>
+    <text x="716" y="207" class="mono mnemonic">ret</text>
+    <text x="762" y="207" class="mono comment">; eax = 0 (OK)</text>
+
+    <!-- Register Dump Footer Box -->
+    <rect x="556" y="218" width="362" height="26" rx="4" fill="#161b22" stroke="#30363d" stroke-width="1" />
+    <text x="566" y="235" class="mono reg-lbl">RIP: <tspan class="reg-val">000000014000100F</tspan>  RAX: <tspan class="reg-val">0x00000001</tspan>  ZF:<tspan fill="#c9d1d9">1</tspan> CF:<tspan fill="#c9d1d9">0</tspan></text>
+  </g>
+</svg>

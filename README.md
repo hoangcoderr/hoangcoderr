@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/header.svg" width="100%" alt="Dao Nguyen Hoang — Reverse Engineer, Backend & AI/Game Systems Developer" />
+  <img src="./assets/banner-v2.svg" width="100%" alt="Dao Nguyen Hoang — Reverse Engineer, Backend & AI/Game Systems Developer" />
 </div>
 
 <div align="center">
@@ -12,7 +12,7 @@
 <br/>
 
 <div align="center">
-  <img src="./assets/domains.svg" width="100%" alt="Core Engineering Domains — Reverse Engineering, Backend, AI/RAG, Game Dev" />
+  <img src="./assets/domains-v2.svg" width="100%" alt="Core Engineering Domains — Reverse Engineering, Backend, AI/RAG, Game Dev" />
 </div>
 
 ---
