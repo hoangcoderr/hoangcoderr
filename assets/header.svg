@@ -1,31 +1,35 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 260" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 256" width="100%" height="100%">
   <defs>
     <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#0d1117" />
       <stop offset="100%" stop-color="#11161d" />
     </linearGradient>
     <linearGradient id="accentLine" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#58a6ff" stop-opacity="0.8" />
-      <stop offset="50%" stop-color="#3fb950" stop-opacity="0.6" />
+      <stop offset="0%" stop-color="#58a6ff" stop-opacity="0.85" />
+      <stop offset="55%" stop-color="#3fb950" stop-opacity="0.6" />
       <stop offset="100%" stop-color="#30363d" stop-opacity="0.1" />
     </linearGradient>
     <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
       <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#21262d" stroke-width="0.6" stroke-opacity="0.55" />
     </pattern>
+    <clipPath id="leftClip">
+      <rect x="20" y="40" width="500" height="210" />
+    </clipPath>
+    <clipPath id="rightClip">
+      <rect x="536" y="40" width="376" height="210" />
+    </clipPath>
     <style>
       .mono { font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', Consolas, monospace; }
       .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; }
-      .title { font-size: 26px; font-weight: 700; fill: #e6edf3; letter-spacing: -0.3px; }
-      .handle { font-size: 14px; font-weight: 500; fill: #58a6ff; }
-      .subtitle { font-size: 12.5px; font-weight: 600; fill: #79c0ff; }
+      .title { font-size: 25px; font-weight: 700; fill: #e6edf3; letter-spacing: -0.3px; }
+      .handle { font-size: 13.5px; font-weight: 500; fill: #58a6ff; }
+      .subtitle { font-size: 12px; font-weight: 600; fill: #79c0ff; }
       .comment { font-size: 11px; fill: #6e7681; }
       .topbar-text { font-size: 11px; fill: #8b949e; }
-      .key { font-size: 12px; fill: #8b949e; }
-      .val { font-size: 12px; fill: #c9d1d9; }
+      .key { font-size: 11.5px; fill: #8b949e; }
+      .val { font-size: 11.5px; fill: #c9d1d9; }
       .hl-blue { fill: #58a6ff; }
       .hl-green { fill: #3fb950; }
-      .hl-amber { fill: #d29922; }
-      .hl-purple { fill: #d2a8ff; }
       .addr { font-size: 11px; fill: #6e7681; }
       .bytes { font-size: 11px; fill: #8b949e; }
       .mnemonic { font-size: 11px; fill: #ff7b72; font-weight: 600; }
@@ -47,108 +51,112 @@
   </defs>
 
   <!-- Outer Frame -->
-  <rect x="1" y="1" width="898" height="258" rx="8" fill="url(#bgGrad)" stroke="#30363d" stroke-width="1.5" />
-  <rect x="2" y="36" width="896" height="222" fill="url(#grid)" />
+  <rect x="1" y="1" width="918" height="254" rx="8" fill="url(#bgGrad)" stroke="#30363d" stroke-width="1.5" />
+  <rect x="2" y="36" width="916" height="218" fill="url(#grid)" />
 
   <!-- Top Disassembler Window Header -->
-  <path d="M 2 9 Q 2 2 9 2 L 891 2 Q 898 2 898 9 L 898 36 L 2 36 Z" fill="#161b22" />
-  <line x1="1" y1="36" x2="899" y2="36" stroke="#30363d" stroke-width="1" />
+  <path d="M 2 9 Q 2 2 9 2 L 911 2 Q 918 2 918 9 L 918 36 L 2 36 Z" fill="#161b22" />
+  <line x1="1" y1="36" x2="919" y2="36" stroke="#30363d" stroke-width="1" />
 
   <!-- Window Controls & Segment Info -->
   <circle cx="20" cy="19" r="5" fill="#30363d" />
   <circle cx="36" cy="19" r="5" fill="#30363d" />
   <circle cx="52" cy="19" r="5" fill="#30363d" />
 
-  <rect x="72" y="9" width="175" height="20" rx="4" fill="#0d1117" stroke="#30363d" stroke-width="1" />
+  <rect x="72" y="9" width="182" height="20" rx="4" fill="#0d1117" stroke="#30363d" stroke-width="1" />
   <text x="82" y="23" class="mono topbar-text"><tspan class="hl-blue">.text</tspan>:00007FF6A1B01000</text>
 
-  <rect x="255" y="9" width="190" height="20" rx="4" fill="#0d1117" stroke="#30363d" stroke-width="1" />
-  <text x="265" y="23" class="mono topbar-text">FMT: <tspan fill="#c9d1d9">PE64 · ELF64 · IL2CPP</tspan></text>
+  <rect x="262" y="9" width="198" height="20" rx="4" fill="#0d1117" stroke="#30363d" stroke-width="1" />
+  <text x="272" y="23" class="mono topbar-text">FMT: <tspan fill="#c9d1d9">PE64 · ELF64 · IL2CPP</tspan></text>
 
   <!-- Right Status Indicator -->
-  <circle cx="712" cy="19" r="4" fill="#3fb950" class="status-dot" />
-  <text x="724" y="23" class="mono topbar-text">SENIOR_YEAR_SE <tspan fill="#6e7681">@</tspan> <tspan fill="#c9d1d9">TDTU</tspan></text>
+  <circle cx="716" cy="19" r="4" fill="#3fb950" class="status-dot" />
+  <text x="728" y="23" class="mono topbar-text">SENIOR_YEAR_SE <tspan fill="#6e7681">@</tspan> <tspan fill="#c9d1d9">TDTU</tspan></text>
 
   <!-- Left Column: Engineer Identity & Specs -->
-  <text x="32" y="64" class="mono comment">// 0x00 IDENTITY_DESCRIPTOR</text>
+  <g clip-path="url(#leftClip)">
+    <text x="32" y="64" class="mono comment">// 0x00 IDENTITY_DESCRIPTOR</text>
 
-  <text x="32" y="96" class="sans title">Đào Nguyễn Hoàng</text>
-  <rect x="276" y="77" width="114" height="23" rx="4" fill="#161b22" stroke="#30363d" stroke-width="1" />
-  <text x="286" y="93" class="mono handle">@hoangcoderr</text>
+    <text x="32" y="95" class="sans title">Đào Nguyễn Hoàng</text>
+    <rect x="284" y="76" width="116" height="23" rx="4" fill="#161b22" stroke="#30363d" stroke-width="1" />
+    <text x="294" y="92" class="mono handle">@hoangcoderr</text>
 
-  <text x="32" y="122" class="mono subtitle">Reverse Engineer · Backend &amp; Systems · AI/RAG · Game Dev</text>
-  <rect x="32" y="134" width="450" height="1.5" fill="url(#accentLine)" />
+    <text x="32" y="121" class="mono subtitle">Reverse Engineer · Backend · AI/RAG · Game Dev</text>
+    <rect x="32" y="133" width="465" height="1.5" fill="url(#accentLine)" />
 
-  <!-- Metadata Key-Value Rows -->
-  <text x="32" y="160" class="mono key">0x00 PRIMARY</text>
-  <text x="142" y="160" class="mono val">Reverse Engineering (PE/ELF, .NET/IL2CPP, Win32, Android)</text>
+    <!-- Metadata Key-Value Rows (Strictly <= 41 chars for universal fit) -->
+    <text x="32" y="159" class="mono key">0x00 FOCUS</text>
+    <text x="136" y="159" class="mono val">PE/ELF · .NET/IL2CPP · Win32 · Android</text>
 
-  <text x="32" y="182" class="mono key">0x04 BACKEND</text>
-  <text x="142" y="182" class="mono val">PHP (Laravel) · C# (.NET) · Java (Spring) · Python (FastAPI)</text>
+    <text x="32" y="181" class="mono key">0x04 BACKEND</text>
+    <text x="136" y="181" class="mono val">PHP (Laravel) · C# (.NET) · Java · Python</text>
 
-  <text x="32" y="204" class="mono key">0x08 AI &amp; GAME</text>
-  <text x="142" y="204" class="mono val">RAG Pipelines (LangChain/VectorDB) · Unity 3D/2D &amp; C#</text>
+    <text x="32" y="203" class="mono key">0x08 AI/GAME</text>
+    <text x="136" y="203" class="mono val">RAG (LangChain/VectorDB) · Unity 3D/C#</text>
 
-  <text x="32" y="226" class="mono key">0x0C EDUCATION</text>
-  <text x="142" y="226" class="mono val">B.Eng. Software Engineering — Ton Duc Thang University (Y4)</text>
+    <text x="32" y="225" class="mono key">0x0C SCHOOL</text>
+    <text x="136" y="225" class="mono val">Software Engineering @ TDTU (Final Year)</text>
+  </g>
 
   <!-- Center Vertical Divider -->
-  <line x1="518" y1="36" x2="518" y2="258" stroke="#30363d" stroke-width="1" stroke-dasharray="3,3" />
+  <line x1="530" y1="36" x2="530" y2="254" stroke="#30363d" stroke-width="1" stroke-dasharray="3,3" />
 
   <!-- Right Column: Disassembly View -->
-  <text x="536" y="60" class="mono comment">// DISASM_VIEW [hoangcoderr.sys]</text>
+  <g clip-path="url(#rightClip)">
+    <text x="548" y="60" class="mono comment">// DISASM_VIEW [hoangcoderr.sys]</text>
 
-  <!-- Active instruction highlight bar -->
-  <rect x="530" y="133" width="354" height="17" rx="3" fill="#58a6ff" class="active-row" />
-  <rect x="530" y="133" width="2.5" height="17" fill="#58a6ff" />
+    <!-- Active instruction highlight bar -->
+    <rect x="542" y="131" width="360" height="17" rx="3" fill="#58a6ff" class="active-row" />
+    <rect x="542" y="131" width="2.5" height="17" fill="#58a6ff" />
 
-  <!-- Instructions -->
-  <text x="538" y="80" class="mono addr">140001000</text>
-  <text x="610" y="80" class="mono bytes">55</text>
-  <text x="692" y="80" class="mono mnemonic">push</text>
-  <text x="742" y="80" class="mono operands">rbp</text>
+    <!-- Instructions -->
+    <text x="550" y="79" class="mono addr">140001000</text>
+    <text x="622" y="79" class="mono bytes">55</text>
+    <text x="706" y="79" class="mono mnemonic">push</text>
+    <text x="752" y="79" class="mono operands">rbp</text>
 
-  <text x="538" y="96" class="mono addr">140001001</text>
-  <text x="610" y="96" class="mono bytes">48 89 E5</text>
-  <text x="692" y="96" class="mono mnemonic">mov</text>
-  <text x="742" y="96" class="mono operands">rbp, rsp</text>
+    <text x="550" y="95" class="mono addr">140001001</text>
+    <text x="622" y="95" class="mono bytes">48 89 E5</text>
+    <text x="706" y="95" class="mono mnemonic">mov</text>
+    <text x="752" y="95" class="mono operands">rbp, rsp</text>
 
-  <text x="538" y="112" class="mono addr">140001004</text>
-  <text x="610" y="112" class="mono bytes">48 83 EC 20</text>
-  <text x="692" y="112" class="mono mnemonic">sub</text>
-  <text x="742" y="112" class="mono operands">rsp, 0x20</text>
+    <text x="550" y="111" class="mono addr">140001004</text>
+    <text x="622" y="111" class="mono bytes">48 83 EC 20</text>
+    <text x="706" y="111" class="mono mnemonic">sub</text>
+    <text x="752" y="111" class="mono operands">rsp, 0x20</text>
 
-  <text x="538" y="128" class="mono addr">140001008</text>
-  <text x="610" y="128" class="mono bytes">48 8D 0D F1</text>
-  <text x="692" y="128" class="mono mnemonic">lea</text>
-  <text x="742" y="128" class="mono operands">rcx, [rip+0xf1]</text>
+    <text x="550" y="127" class="mono addr">140001008</text>
+    <text x="622" y="127" class="mono bytes">48 8D 0D F1</text>
+    <text x="706" y="127" class="mono mnemonic">lea</text>
+    <text x="752" y="127" class="mono operands">rcx, [rip+0xf1]</text>
 
-  <text x="538" y="145" class="mono addr" fill="#58a6ff">14000100F</text>
-  <text x="610" y="145" class="mono bytes" fill="#c9d1d9">E8 4C 02 00</text>
-  <text x="692" y="145" class="mono mnemonic">call</text>
-  <text x="742" y="145" class="mono sym">&lt;reverse_binary&gt;</text>
+    <text x="550" y="143" class="mono addr" fill="#58a6ff">14000100F</text>
+    <text x="622" y="143" class="mono bytes" fill="#c9d1d9">E8 4C 02 00</text>
+    <text x="706" y="143" class="mono mnemonic">call</text>
+    <text x="752" y="143" class="mono sym">&lt;reverse_binary&gt;</text>
 
-  <text x="538" y="162" class="mono addr">140001014</text>
-  <text x="610" y="162" class="mono bytes">E8 87 05 00</text>
-  <text x="692" y="162" class="mono mnemonic">call</text>
-  <text x="742" y="162" class="mono sym">&lt;init_backend_rag&gt;</text>
+    <text x="550" y="159" class="mono addr">140001014</text>
+    <text x="622" y="159" class="mono bytes">E8 87 05 00</text>
+    <text x="706" y="159" class="mono mnemonic">call</text>
+    <text x="752" y="159" class="mono sym">&lt;init_backend_rag&gt;</text>
 
-  <text x="538" y="178" class="mono addr">140001019</text>
-  <text x="610" y="178" class="mono bytes">31 C0</text>
-  <text x="692" y="178" class="mono mnemonic">xor</text>
-  <text x="742" y="178" class="mono operands">eax, eax</text>
+    <text x="550" y="175" class="mono addr">140001019</text>
+    <text x="622" y="175" class="mono bytes">31 C0</text>
+    <text x="706" y="175" class="mono mnemonic">xor</text>
+    <text x="752" y="175" class="mono operands">eax, eax</text>
 
-  <text x="538" y="194" class="mono addr">14000101B</text>
-  <text x="610" y="194" class="mono bytes">48 83 C4 20</text>
-  <text x="692" y="194" class="mono mnemonic">add</text>
-  <text x="742" y="194" class="mono operands">rsp, 0x20</text>
+    <text x="550" y="191" class="mono addr">14000101B</text>
+    <text x="622" y="191" class="mono bytes">48 83 C4 20</text>
+    <text x="706" y="191" class="mono mnemonic">add</text>
+    <text x="752" y="191" class="mono operands">rsp, 0x20</text>
 
-  <text x="538" y="210" class="mono addr">14000101F</text>
-  <text x="610" y="210" class="mono bytes">5D C3</text>
-  <text x="692" y="210" class="mono mnemonic">ret</text>
-  <text x="742" y="210" class="mono comment">; status = STATUS_SUCCESS</text>
+    <text x="550" y="207" class="mono addr">14000101F</text>
+    <text x="622" y="207" class="mono bytes">5D C3</text>
+    <text x="706" y="207" class="mono mnemonic">ret</text>
+    <text x="752" y="207" class="mono comment">; eax = 0 (OK)</text>
 
-  <!-- Register Dump Footer Box -->
-  <rect x="534" y="220" width="350" height="26" rx="4" fill="#161b22" stroke="#30363d" stroke-width="1" />
-  <text x="544" y="237" class="mono reg-lbl">RIP: <tspan class="reg-val">000000014000100F</tspan>  RAX: <tspan class="reg-val">0x00000001</tspan>  ZF:<tspan fill="#c9d1d9">1</tspan> CF:<tspan fill="#c9d1d9">0</tspan></text>
+    <!-- Register Dump Footer Box -->
+    <rect x="546" y="218" width="356" height="26" rx="4" fill="#161b22" stroke="#30363d" stroke-width="1" />
+    <text x="556" y="235" class="mono reg-lbl">RIP: <tspan class="reg-val">000000014000100F</tspan>  RAX: <tspan class="reg-val">0x00000001</tspan>  ZF:<tspan fill="#c9d1d9">1</tspan> CF:<tspan fill="#c9d1d9">0</tspan></text>
+  </g>
 </svg>

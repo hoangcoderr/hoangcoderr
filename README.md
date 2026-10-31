@@ -2,68 +2,22 @@
   <img src="./assets/header.svg" width="100%" alt="Dao Nguyen Hoang — Reverse Engineer, Backend & AI/Game Systems Developer" />
 </div>
 
-<br/>
-
 <div align="center">
-  <img src="https://img.shields.io/badge/Role-Reverse_Engineer_%26_Systems_Dev-161b22?style=flat-square&labelColor=0d1117&color=58a6ff" alt="Role" />
-  <img src="https://img.shields.io/badge/Education-TDTU_Software_Engineering_(Final_Year)-161b22?style=flat-square&labelColor=0d1117&color=3fb950" alt="Education" />
+  <img src="https://img.shields.io/badge/Focus-Reverse_Engineering_%26_Systems-161b22?style=flat-square&labelColor=0d1117&color=58a6ff" alt="Focus" />
+  <img src="https://img.shields.io/badge/University-TDTU_Software_Engineering_(Final_Year)-161b22?style=flat-square&labelColor=0d1117&color=3fb950" alt="Education" />
   <img src="https://img.shields.io/badge/Location-Ho_Chi_Minh_City,_VN-161b22?style=flat-square&labelColor=0d1117&color=8b949e" alt="Location" />
   <img src="https://visitor-badge.laobi.icu/badge?page_id=hoangcoderr.hoangcoderr&style=flat-square&color=58a6ff&labelColor=0d1117" alt="Visitors" />
 </div>
 
----
+<br/>
 
-### `0x00` — Overview
-
-Final-year **Software Engineering** student at **Ton Duc Thang University (TDTU)** with a primary focus on **Reverse Engineering & Low-Level Systems**, complemented by strong practical experience in **Backend Engineering**, **Applied AI / RAG Pipelines**, and **Game Development**.
-
-My approach combines bottom-up binary and runtime analysis (understanding how compiled code, memory layouts, PE/ELF binaries, and `.NET`/IL2CPP runtimes execute under the hood) with top-down software architecture across PHP, C#, Java, C++, and Python.
+<div align="center">
+  <img src="./assets/domains.svg" width="100%" alt="Core Engineering Domains — Reverse Engineering, Backend, AI/RAG, Game Dev" />
+</div>
 
 ---
 
-### `0x01` — Core Engineering Domains
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h4><code>[0x01A]</code> Reverse Engineering &amp; Binary Analysis <i>(Primary)</i></h4>
-      <ul>
-        <li><b>Windows Internals &amp; Native Binaries:</b> Static and dynamic analysis of PE/ELF executables using <code>IDA Pro</code>, <code>Ghidra</code>, <code>x64dbg</code>, and <code>GDB</code>; Win32/NTAPI internals, manual unpacking, and anti-debug / anti-tamper analysis.</li>
-        <li><b>Game Hacking &amp; Managed Runtimes:</b> Reversing C#/.NET and Unity binaries (<code>dnSpy</code>, <code>ILSpy</code>, <code>Il2CppDumper</code>), memory inspection (<code>Cheat Engine</code>), DLL injection, and API/function hooking (<code>MinHook</code>, Detours).</li>
-        <li><b>Mobile &amp; Exploitation:</b> Android APK decompilation and dynamic instrumentation (<code>Frida</code>, <code>JADX</code>, <code>Apktool</code>, Smali), Linux ELF binary exploitation (<code>pwntools</code>), and malware analysis.</li>
-      </ul>
-    </td>
-    <td width="50%" valign="top">
-      <h4><code>[0x01B]</code> Backend Engineering &amp; Systems</h4>
-      <ul>
-        <li><b>Multi-Language Backend Stack:</b> Building backend services and RESTful APIs using <b>PHP</b> (Native PHP, Laravel), <b>C#</b> (.NET / ASP.NET Core), <b>Java</b> (Java Core, Spring Boot), and <b>Python</b> (FastAPI, Flask).</li>
-        <li><b>Data &amp; Caching Layers:</b> Relational schema design, query optimization, and distributed caching with <code>MySQL</code>, <code>PostgreSQL</code>, <code>Redis</code>, and <code>MongoDB</code>.</li>
-        <li><b>Infrastructure:</b> Containerized environments with <code>Docker</code>, Linux system administration, and automated Git workflows.</li>
-      </ul>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h4><code>[0x01C]</code> Applied AI &amp; RAG Pipelines</h4>
-      <ul>
-        <li><b>Retrieval-Augmented Generation (RAG):</b> End-to-end document ingestion, chunking strategies, embedding pipelines, semantic/hybrid retrieval, and context reranking.</li>
-        <li><b>Frameworks &amp; Vector Stores:</b> Developing AI services with <code>Python</code>, <code>LangChain</code>, and <code>LlamaIndex</code> backed by <code>FAISS</code>, <code>ChromaDB</code>, and <code>Qdrant</code>.</li>
-        <li><b>LLM Integration:</b> Deploying local and API-driven inference workflows (<code>Ollama</code>, OpenAI/Gemini APIs) exposed via asynchronous <code>FastAPI</code> microservices.</li>
-      </ul>
-    </td>
-    <td width="50%" valign="top">
-      <h4><code>[0x01D]</code> Game Development &amp; Engine Internals</h4>
-      <ul>
-        <li><b>Unity &amp; C# Architecture:</b> Designing modular 2D/3D gameplay systems, physics interactions, custom editor tooling, and asset integration (<code>Blender</code>).</li>
-        <li><b>Networking &amp; Runtime Security:</b> Implementing client-server state synchronization and applying reverse engineering insights to client protection, obfuscation, and anti-cheat mechanics.</li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
----
-
-### `0x02` — Technical Arsenal
+### `0x01` — Technical Stack
 
 | Layer | Technologies & Tools |
 | :--- | :--- |
@@ -75,7 +29,7 @@ My approach combines bottom-up binary and runtime analysis (understanding how co
 
 ---
 
-### `0x03` — Telemetry & Activity
+### `0x02` — Telemetry & Activity
 
 <div align="center">
   <img height="175em" src="https://github-readme-stats-salesp07.vercel.app/api?username=hoangcoderr&count_private=true&show_icons=true&bg_color=0d1117&border_color=30363d&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff&border_radius=6&rank_icon=github" alt="GitHub Stats" />
@@ -96,28 +50,14 @@ My approach combines bottom-up binary and runtime analysis (understanding how co
 
 ---
 
-### `0x04` — Channels & Support
+### `0x03` — Channels & Support
 
-<table width="100%">
-  <tr>
-    <td width="60%" valign="top">
-      <h4>Direct Channels</h4>
-      <p>Open for software engineering opportunities, backend/AI projects, and reverse engineering research discussions.</p>
-      <p>
-        <a href="mailto:dhoang1234sp@gmail.com"><img src="https://img.shields.io/badge/Email-dhoang1234sp%40gmail.com-161b22?style=flat-square&logo=gmail&logoColor=EA4335&labelColor=0d1117" alt="Email" /></a>
-        <a href="https://www.linkedin.com/in/hoangcoderr/"><img src="https://img.shields.io/badge/LinkedIn-hoangcoderr-161b22?style=flat-square&logo=linkedin&logoColor=0A66C2&labelColor=0d1117" alt="LinkedIn" /></a>
-        <a href="https://www.facebook.com/hoangkev1n"><img src="https://img.shields.io/badge/Facebook-hoangkev1n-161b22?style=flat-square&logo=facebook&logoColor=1877F2&labelColor=0d1117" alt="Facebook" /></a>
-        <a href="https://www.youtube.com/@hoangcoderr"><img src="https://img.shields.io/badge/YouTube-@hoangcoderr-161b22?style=flat-square&logo=youtube&logoColor=FF0000&labelColor=0d1117" alt="YouTube" /></a>
-        <a href="https://www.tiktok.com/@hoangcoderr"><img src="https://img.shields.io/badge/TikTok-@hoangcoderr-161b22?style=flat-square&logo=tiktok&logoColor=white&labelColor=0d1117" alt="TikTok" /></a>
-      </p>
-    </td>
-    <td width="40%" valign="top">
-      <h4>Support Research &amp; Tools</h4>
-      <p>If my open-source tools or technical write-ups were useful to you:</p>
-      <p>
-        <a href="https://nhantien.momo.vn/0854975357"><img src="https://img.shields.io/badge/MoMo-0854975357-ae2070?style=flat-square&labelColor=0d1117" alt="MoMo" /></a>
-        <a href="https://raw.githubusercontent.com/hoangcoderr/hoangcoderr/main/z5567468004892_d714aaaea30752790e4fa4d80d1814d9.jpg"><img src="https://img.shields.io/badge/Vietcombank-QR_Code-006400?style=flat-square&labelColor=0d1117" alt="Vietcombank QR" /></a>
-      </p>
-    </td>
-  </tr>
-</table>
+<div align="center">
+  <a href="mailto:dhoang1234sp@gmail.com"><img src="https://img.shields.io/badge/Email-dhoang1234sp%40gmail.com-161b22?style=flat-square&logo=gmail&logoColor=EA4335&labelColor=0d1117" alt="Email" /></a>
+  <a href="https://www.linkedin.com/in/hoangcoderr/"><img src="https://img.shields.io/badge/LinkedIn-hoangcoderr-161b22?style=flat-square&logo=linkedin&logoColor=0A66C2&labelColor=0d1117" alt="LinkedIn" /></a>
+  <a href="https://www.facebook.com/hoangkev1n"><img src="https://img.shields.io/badge/Facebook-hoangkev1n-161b22?style=flat-square&logo=facebook&logoColor=1877F2&labelColor=0d1117" alt="Facebook" /></a>
+  <a href="https://www.youtube.com/@hoangcoderr"><img src="https://img.shields.io/badge/YouTube-@hoangcoderr-161b22?style=flat-square&logo=youtube&logoColor=FF0000&labelColor=0d1117" alt="YouTube" /></a>
+  <a href="https://www.tiktok.com/@hoangcoderr"><img src="https://img.shields.io/badge/TikTok-@hoangcoderr-161b22?style=flat-square&logo=tiktok&logoColor=white&labelColor=0d1117" alt="TikTok" /></a>
+  <a href="https://nhantien.momo.vn/0854975357"><img src="https://img.shields.io/badge/MoMo-0854975357-ae2070?style=flat-square&labelColor=0d1117" alt="MoMo" /></a>
+  <a href="https://raw.githubusercontent.com/hoangcoderr/hoangcoderr/main/z5567468004892_d714aaaea30752790e4fa4d80d1814d9.jpg"><img src="https://img.shields.io/badge/Vietcombank-QR_Code-006400?style=flat-square&labelColor=0d1117" alt="Vietcombank QR" /></a>
+</div>
